@@ -72,9 +72,9 @@
                 <RouterLink to="/search">
                     <MenuItem class="ml-[1px]" :iconSize="24" name="Search" iconString="search" pageUrl="/search" />
                 </RouterLink>
-                <!-- <RouterLink to="/library">
+                <RouterLink to="/library">
                     <MenuItem class="ml-[2px]" :iconSize="23" name="Your Library" iconString="library" pageUrl="/library" />
-                </RouterLink> -->
+                </RouterLink>
                 <div class="py-3.5"></div>
                 <MenuItem :iconSize="24" name="Create Playlist" iconString="playlist" pageUrl="/playlist" />
                 <MenuItem class="-ml-[1px]" :iconSize="27" name="Liked Songs" iconString="liked" pageUrl="/liked" />
