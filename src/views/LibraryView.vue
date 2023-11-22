@@ -68,7 +68,9 @@ import artist from '../artist.json'
         </div>
         <div class="border-b border-b-[#2A2A2A] mt-2"></div>
         <div class="mb-4"></div>
-        <ul class="w-full" v-for="track, index in artist.tracks" :key="track">
+        <ul class="w-full" 
+            v-for="track, index in artist.tracks" 
+            :key="track">
             <SongRow :artist="artist" :track="track" :index="++index"/>
         </ul>
 
